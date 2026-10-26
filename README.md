@@ -6,7 +6,7 @@ An Arduino-based prototype that monitors environmental conditions relevant to fo
 
 - Reads temperature and relative humidity from a **DHT22** sensor.
 - Reads ambient-light intensity through an analog light sensor.
-- Reads an analog gas-sensor signal (identified as **MQ-135** in the sketch).
+- Reads an analog gas-sensor signal ( **MQ-135** ).
 - Displays temperature and a gas-threshold status on a **16×2 I²C LCD**.
 - Activates indicator LEDs for configured temperature/light thresholds and a buzzer for high humidity.
 - Prints live measurements to the Arduino Serial Monitor at **9600 baud**.
@@ -28,13 +28,13 @@ An Arduino-based prototype that monitors environmental conditions relevant to fo
 
 The original wiring guide documents an LDR divider using a **220 Ω** resistor, a **1 kΩ** DHT22 pull-up, and **220 Ω** LED resistors. Verify resistance values and wiring against your actual parts before powering the circuit.
 
-Use suitable current-limiting resistors for LEDs and verify sensor power requirements before wiring. The code doesn't specify a particular Arduino board.
+Use suitable current-limiting resistors for LEDs and verify sensor power requirements before wiring. Arduino UNO R3 was used for this project. 
 
 ## Software setup
 
 1. Install Arduino IDE and select your board and port.
 2. Install **DHT sensor library** and its dependencies, and a compatible **LiquidCrystal_I2C** library.
-3. Open [`src/FoodVisionPro.ino`](src/FoodVisionPro.ino), verify the LCD I²C address, and upload.
+3. Open [`FoodVisionPro.ino`](/FoodVisionPro.ino), verify the LCD I²C address, and upload.
 4. Open Serial Monitor at **9600 baud** to inspect sensor values.
 5. Adjust thresholds to match your actual sensors and environment before demonstrating.
 

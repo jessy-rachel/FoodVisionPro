@@ -11,7 +11,7 @@ An Arduino-based prototype that monitors environmental conditions relevant to fo
 - Activates indicator LEDs for configured temperature/light thresholds and a buzzer for high humidity.
 - Prints live measurements to the Arduino Serial Monitor at **9600 baud**.
 
-> **Important:** The LCD message `Safe Food` / `Spoilt Food !!!` is determined solely by a gas sensor threshold in the uploaded code. It is **not a validated determination of food freshness or safety**, and the MQ-135 is not a food-safety diagnostic instrument.
+
 
 ## Hardware referenced in the sketch
 

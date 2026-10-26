@@ -50,13 +50,13 @@ Use suitable current-limiting resistors for LEDs and verify sensor power require
 
 ## Repository contents
 
-- `src/FoodVisionPro.ino` — original Arduino sketch
-- `docs/FoodVision_Arduino_Wiring.pdf` — illustrated pin/wiring reference
+- `FoodVisionPro.ino` — original Arduino sketch
+- `FoodVision_Arduino_Wiring.pdf` — illustrated pin/wiring reference
 - `README.md` and `.gitignore`
 
 ## Original hardware documentation
 
-- [Arduino connections and build photographs (PDF)](docs/FoodVision_Arduino_Wiring.pdf) — MQ-135, LDR, DHT22, I²C LCD, three LEDs and buzzer.
+- [Arduino connections and build photographs (PDF)](/FoodVision_Arduino_Wiring.pdf) — MQ-135, LDR, DHT22, I²C LCD, three LEDs and buzzer.
 - The guide refers to an earlier filename `FINAL_CODE_3`; this repository preserves the supplied `FoodVisionPro.ino`. Pin assignments were cross-checked against the sketch.
 
 ## Context and scope
